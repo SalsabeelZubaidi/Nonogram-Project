@@ -1,0 +1,65 @@
+body {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100vh;
+				margin: 0;
+				background-color:silver;
+				font-family: 'Arial';
+			}
+
+			#gameContainer {
+				border: 2px solid black;
+				border-radius: 5px;
+				overflow: hidden;
+				background-color:white;
+				width: 300px;
+				text-align: center;
+			}
+
+			.cell {
+				width: 40px;
+				height: 40px;
+				border: 1px solid #ddd;
+				cursor: pointer;
+				user-select: none;
+				display: inline-block;
+				box-sizing: border-box;
+			}
+
+			.cell.clicked {
+				background-color: black;
+			}
+
+			.table {
+			display: flex;
+			justify-content: space-around;
+			}
+
+			.cols {
+			display: flex;
+			justify-content: flex-end;
+			}
+
+			.cols div {
+			width: 40px;
+			}
+
+			.rows div {
+			height: 40px;
+			display: flex;
+			justify-content: end;
+			gap: 11px;
+			align-items: center;
+			}
+
+			button {
+				margin: 10px;
+				padding: 8px 16px;
+				font-size: 16px;
+				cursor: pointer;
+				background-color: black;
+				color: white;
+				border: none;
+				border-radius: 5px;
+			}
