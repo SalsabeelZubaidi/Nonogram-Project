@@ -1,0 +1,86 @@
+<html>
+	<head> 
+		<title> Nonogram Game </title> 
+		<link rel="stylesheet" href="style.css"/>
+		<script src="script.js"></script>
+
+	</head>
+
+	<body>
+		<div id="gameContainer">   
+		<h2 style="margin: 10px 0; font-size: 20px;"> Nonogram Game </h2>
+			<div id="nonogramTable">
+		<div class="cols">
+			<div>
+				<div>3</div>
+				<div>1</div>
+			</div>
+			<div>2</div>
+			<div>
+				<div>2</div>
+				<div>1</div>
+			</div>
+			<div>1</div>
+			<div>3</div>
+		</div>
+		<div class="table">
+			<div class="rows">
+			<div>4</div>
+			<div>3</div>
+			<div>
+			<div>1</div>
+			<div>1</div>
+			</div>
+			<div>1</div>
+			<div>
+			<div>1</div>
+			<div>1</div>
+			<div>1</div>
+			</div>
+			</div>   
+		<div class="cells">
+		<table>
+			<tr>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+			</tr>
+			<tr>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+			</tr>
+			<tr>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+			</tr>
+			<tr>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+			</tr>
+			<tr>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+				<td  class="cell" onclick="toggleCell(this)"></td>
+			</tr>
+		</table>
+
+		</div>
+		</div>
+		</div>   
+		<button onclick="checkSolution()">Check Solution</button></div>
+
+	</body>
+</html>
